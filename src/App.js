@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Raft from './Raft';
+import Raft from './Raft/Raft';
 
 function App() {
   return (

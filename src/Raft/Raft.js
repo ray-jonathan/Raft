@@ -1,4 +1,5 @@
 import React from 'react';
+import Hull from './Hull/Hull';
 export default class Raft extends React.Component{
   constructor(props){
     super(props)
@@ -8,8 +9,8 @@ export default class Raft extends React.Component{
   }
   render(){
     return(
-      <div className="raft-wrapper" contentEditable="true" suppressContentEditableWarning="true">
-        Hello World
+      <div className="raft">
+        <Hull />
       </div>
     )
   }

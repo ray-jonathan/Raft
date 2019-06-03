@@ -33,10 +33,17 @@
 }
 
 
-.raft-wrapper{
-  width: 300px;
-  height: 200px;
+.raft{
+  width: 60vw;
+}
+
+.hull{
+  height: 30vw; /* height is in hull because if it were in .raft, it would snap to the size of the content within */
   background-color: white;
   color: rgb(50, 50, 50);
   text-align: left;
+}
+
+.riggings{
+
 }
