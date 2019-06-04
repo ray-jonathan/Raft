@@ -34,16 +34,21 @@
 
 
 .raft{
-  width: 60vw;
 }
 
 .hull{
-  height: 30vw; /* height is in hull because if it were in .raft, it would snap to the size of the content within */
+  width: 60vw;
+  height: 30vw;
   background-color: white;
   color: rgb(50, 50, 50);
   text-align: left;
 }
 
 .riggings{
+  display: flex;
+  justify-content: flex-start;
+}
 
+.riggings .spacer{
+  width: 2vw;
 }
